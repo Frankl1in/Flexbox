@@ -1,0 +1,25 @@
+/* Votre CSS ici (uniquement) */
+
+.pagination{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.pagination a{
+    text-align: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 600px){
+    .page-number{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .page-label{
+        flex-basis: 100%;
+    }
+}

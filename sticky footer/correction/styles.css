@@ -1,0 +1,16 @@
+/* Votre CSS ici (uniquement) */
+
+/* 
+Astuce 1 : Vous pouvez résoudre ce problème en sélectionnant body et .content
+Astuce 2 : utiliser l'unité vh (c'est comme px, %, ...) et la propriété min-height
+*/
+
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.content{
+	flex-grow: 1;
+}
